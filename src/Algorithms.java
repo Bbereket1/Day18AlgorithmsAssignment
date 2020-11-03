@@ -3,6 +3,14 @@ import java.util.Arrays;
 
 public class Algorithms {
     public static void main(String[] args) {
+        int [] num1 = {1, 2, 3, 4};
+        firstSumOfArray(num1);
+        int [] num2 = {1,1,1,1,1};
+        secondSumOfArray(num2);
+
+       int [] num3 = {3,1,2,10,1};
+       thirdSumOfArray(num3);
+
         /*
         Running Sum of 1d Array
 
@@ -29,13 +37,37 @@ public class Algorithms {
 
          */
 
-    int num [] = {1, 2, 3, 4};
+    }
+
+
+    public static void firstSumOfArray(int [] num){
     int sum =0;
     for(int i=0; i<= num.length-1; i++ ) {
         sum = sum + num[i];
         for (int value: num);
         System.out.println(sum);
     }
+
+
+    }
+
+    public static void secondSumOfArray(int [] num){
+        int sum =0;
+        for(int i=0; i<= num.length-1; i++ ) {
+            sum = sum + num[i];
+            for (int value: num);
+            System.out.println(sum);
+        }
+
+
+    }
+    public static void thirdSumOfArray(int [] num){
+        int sum =0;
+        for(int i=0; i<= num.length-1; i++ ) {
+            sum = sum + num[i];
+            for (int value: num);
+            System.out.println(sum);
+        }
 
 
     }
